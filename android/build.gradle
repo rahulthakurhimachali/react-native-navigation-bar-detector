@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 group = 'expo.modules.navigationbardetector'
-version = '0.1.4'
+version = '0.1.5'
 
 apply plugin: 'maven-publish'
 
@@ -37,7 +37,7 @@ android {
   namespace "expo.modules.navigationbardetector"
   defaultConfig {
     versionCode 4
-    versionName "0.1.4"
+    versionName "0.1.5"
   }
   lintOptions {
     abortOnError false
